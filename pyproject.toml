@@ -1,0 +1,20 @@
+[project]
+name = "langchain-learn"
+version = "0.1.0"
+description = "langchain-learn 项目学习"
+authors = [
+    { name = "chenxirui", email = "samrtloe@foxmail.com" },
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "bs4>=0.0.2",
+    "dotenv>=0.9.9",
+    "faiss-cpu>=1.12.0",
+    "langchain>=0.3.27",
+    "langchain-community>=0.3.29",
+    "langchain-openai>=0.3.33",
+    "openai>=1.109.1",
+    "pandas>=2.3.2",
+    "requests>=2.32.5",
+]
