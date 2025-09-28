@@ -21,3 +21,22 @@ dependencies = [
     "pandas>=2.3.2",
     "requests>=2.32.5",
 ]
+
+# pyproject.toml (Black配置)
+[tool.black]
+line-length = 88
+target-version = ['py38']
+include = '\.pyi?$'
+extend-exclude = '''
+/(
+    # 排除目录
+    \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | build
+  | dist
+)/
+'''
