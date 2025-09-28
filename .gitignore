@@ -31,3 +31,4 @@ build/
 # 忽略临时文件
 tmp/
 temp/
+.idea/misc.xml
