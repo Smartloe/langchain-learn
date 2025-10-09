@@ -115,7 +115,3 @@ OTHER_API_KEY=your_other_api_key_here
 - 感谢[尚硅谷](https://space.bilibili.com/302417610)提供的优质 LangChain 教程
 - 感谢 LangChain 社区提供的强大框架支持
 
----
-
-**注意**: 请妥善保管您的 API Keys，不要上传到公开仓库。
-
