@@ -20,6 +20,7 @@ dependencies = [
     "jupyterlab>=4.4.9",
     "langchain>=0.3.27",
     "langchain-community>=0.3.29",
+    "langchain-experimental>=0.3.4",
     "langchain-ollama>=0.3.8",
     "langchain-openai>=0.3.33",
     "langchainhub>=0.1.21",
