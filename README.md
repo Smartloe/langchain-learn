@@ -35,7 +35,7 @@ langchain-learn/
 
 ### 环境要求
 
-- Python 3.10
+- Python 3.x
 - uv 包管理器
 
 ### 安装依赖
