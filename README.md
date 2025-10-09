@@ -14,6 +14,7 @@
 
 ## 🗂️ 项目结构
 
+```plaintext
 langchain-learn/
 ├── src/longchain_learn/          # 主要源代码
 │   ├── chapter01-summary/        # LangChain 概述
@@ -28,7 +29,7 @@ langchain-learn/
 ├── main.py                       # 主程序入口
 ├── pyproject.toml               # 项目配置
 └── uv.lock                      # 依赖锁定文件
-
+```
 
 ## 🚀 快速开始
 
