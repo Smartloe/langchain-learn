@@ -1,0 +1,5 @@
+{"timestamp": "2023-10-05T08:12:33Z", "level": "INFO", "service": "auth-service", "message": "User login successful", "user_id": "u12345", "ip": "192.168.1.100"}
+{"timestamp": "2023-10-05T08:12:35Z", "level": "WARNING", "service": "payment-service", "message": "Payment processing slow (1200ms)", "transaction_id": "txn_67890", "duration_ms": 1200}
+{"timestamp": "2023-10-05T08:13:01Z", "level": "ERROR", "service": "order-service", "message": "Failed to connect to database", "error_code": "DB_CONN_REFUSED", "attempts": 3}
+{"timestamp": "2023-10-05T08:13:45Z", "level": "DEBUG", "service": "inventory-service", "message": "Cache hit for product ID: p98765", "cache_key": "prod:p98765"}
+{"timestamp": "2023-10-05T08:14:12Z", "level": "CRITICAL", "service": "api-gateway", "message": "High error rate detected (15%)", "status": "alert_triggered", "error_rate": 15.2}
