@@ -25,6 +25,7 @@ dependencies = [
     "langchain-ollama>=0.3.8",
     "langchain-openai>=0.3.33",
     "langchainhub>=0.1.21",
+    "markdown>=3.9",
     "networkx>=3.4.2",
     "numexpr>=2.13.1",
     "openai>=1.109.1",
@@ -33,6 +34,7 @@ dependencies = [
     "pymysql>=1.1.2",
     "pypdf>=6.1.1",
     "requests>=2.32.5",
+    "unstructured>=0.18.15",
 ]
 
 # pyproject.toml (Black配置)
