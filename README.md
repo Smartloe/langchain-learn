@@ -16,7 +16,7 @@
 
 ```plaintext
 langchain-learn/
-├── src/longchain_learn/          # 主要源代码
+├── src/langchain_learn/          # 主要源代码
 │   ├── chapter01-summary/        # LangChain 概述和 Hello World
 │   ├── chapter02-model IO/       # Model IO 模块
 │   │   ├── 01-模型的调用.ipynb
@@ -165,7 +165,7 @@ jupyter notebook
 
 ## 📝 使用说明
 
-1. 每个章节的代码都在 `src/longchain_learn/` 对应的目录下
+1. 每个章节的代码都在 `src/langchain_learn/` 对应的目录下
 2. 使用 Jupyter Notebook 打开 `.ipynb` 文件进行交互式学习
 3. 参考 `docs/` 目录下的 PDF 文档获取详细理论说明
 4. 在运行代码前，请确保已正确配置 API Keys
