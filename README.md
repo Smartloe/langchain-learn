@@ -5,8 +5,9 @@
 ## 📚 项目简介
 
 本教程从入门到实战，开发多个前沿项目案例，涵盖：
+
 - 🤖 智能对话助手
-- 📖 知识库问答助手  
+- 📖 知识库问答助手
 - 🌤️ 天气智能查询助理
 - 等多个实战项目
 
@@ -111,48 +112,38 @@ OTHER_API_KEY=your_other_api_key_here
 
 ⚠️ **注意**: 出于安全考虑，`.env` 文件已添加到 `.gitignore`，不会被上传到 GitHub。
 
-### 运行项目
-
-```bash
-# 运行主程序
-python main.py
-
-# 或使用 Jupyter Notebook 运行各章节代码
-jupyter notebook
-```
-
 ## 📖 学习内容
 
 ### 各章节内容
 
 1. **Chapter 01**: LangChain 概述和 Hello World
 2. **Chapter 02**: Model IO 模块
-   - 模型的调用
-   - 提示词模板 (Prompt Template, ChatPromptTemplate)
-   - 输出解析器
-   - 本地模型调用
+    - 模型的调用
+    - 提示词模板 (Prompt Template, ChatPromptTemplate)
+    - 输出解析器
+    - 本地模型调用
 3. **Chapter 03**: Chains 模块
-   - LCEL 语法理解
-   - 传统 Chain 使用
-   - 基于 LCEL 的 Chains 类型
+    - LCEL 语法理解
+    - 传统 Chain 使用
+    - 基于 LCEL 的 Chains 类型
 4. **Chapter 04**: Memory 模块
-   - 基础 Memory 使用
-   - 其他 Memory 模块
+    - 基础 Memory 使用
+    - 其他 Memory 模块
 5. **Chapter 05**: Tools 模块
-   - 自定义工具
-   - 大模型分析工具调用
+    - 自定义工具
+    - 大模型分析工具调用
 6. **Chapter 06**: Agents 模块
-   - 传统方式调用工具
-   - 通用方式调用工具
-   - Agent 嵌入记忆功能
+    - 传统方式调用工具
+    - 通用方式调用工具
+    - Agent 嵌入记忆功能
 7. **Chapter 07**: Retrieval 模块
-   - 文档加载器使用
-   - 文档拆分器使用
-   - 文档嵌入模型
-   - 向量数据库使用
-   - 检索器使用
-   - 综合案例：智能对话助手
-   - 综合案例：知识库问答助手
+    - 文档加载器使用
+    - 文档拆分器使用
+    - 文档嵌入模型
+    - 向量数据库使用
+    - 检索器使用
+    - 综合案例：智能对话助手
+    - 综合案例：知识库问答助手
 
 ## 🛠️ 技术栈
 
