@@ -1,6 +1,10 @@
 # How-to guides
 
-Here you’ll find answers to “How do I….?” types of questions. These guides are *goal-oriented* and *concrete*; they're meant to help you complete a specific task. For conceptual explanations see the [Conceptual guide](https://python.langchain.com/docs/concepts/). For end-to-end walkthroughs see [Tutorials](https://python.langchain.com/docs/tutorials/). For comprehensive descriptions of every class and function see the [API Reference](https://python.langchain.com/api_reference/).
+Here you’ll find answers to “How do I….?” types of questions. These guides are *goal-oriented* and *concrete*; they're
+meant to help you complete a specific task. For conceptual explanations see
+the [Conceptual guide](https://python.langchain.com/docs/concepts/). For end-to-end walkthroughs
+see [Tutorials](https://python.langchain.com/docs/tutorials/). For comprehensive descriptions of every class and
+function see the [API Reference](https://python.langchain.com/api_reference/).
 
 ## Installation[](https://python.langchain.com/docs/how_to/#installation)
 
@@ -22,7 +26,9 @@ These are the core building blocks you can use when building applications.
 
 ### Chat models[](https://python.langchain.com/docs/how_to/#chat-models)
 
-[Chat Models](https://python.langchain.com/docs/concepts/chat_models/) are newer forms of language models that take messages in and output a message. See [supported integrations](https://python.langchain.com/docs/integrations/chat/) for details on getting started with chat models from a specific provider.
+[Chat Models](https://python.langchain.com/docs/concepts/chat_models/) are newer forms of language models that take
+messages in and output a message. See [supported integrations](https://python.langchain.com/docs/integrations/chat/) for
+details on getting started with chat models from a specific provider.
 
 - [How to: do function/tool calling](https://python.langchain.com/docs/how_to/tool_calling/)
 - [How to: get models to return structured output](https://python.langchain.com/docs/how_to/structured_output/)
@@ -44,7 +50,8 @@ These are the core building blocks you can use when building applications.
 
 ### Messages[](https://python.langchain.com/docs/how_to/#messages)
 
-[Messages](https://python.langchain.com/docs/concepts/messages/) are the input and output of chat models. They have some `content` and a `role`, which describes the source of the message.
+[Messages](https://python.langchain.com/docs/concepts/messages/) are the input and output of chat models. They have some
+`content` and a `role`, which describes the source of the message.
 
 - [How to: trim messages](https://python.langchain.com/docs/how_to/trim_messages/)
 - [How to: filter messages](https://python.langchain.com/docs/how_to/filter_messages/)
@@ -52,7 +59,8 @@ These are the core building blocks you can use when building applications.
 
 ### Prompt templates[](https://python.langchain.com/docs/how_to/#prompt-templates)
 
-[Prompt Templates](https://python.langchain.com/docs/concepts/prompt_templates/) are responsible for formatting user input into a format that can be passed to a language model.
+[Prompt Templates](https://python.langchain.com/docs/concepts/prompt_templates/) are responsible for formatting user
+input into a format that can be passed to a language model.
 
 - [How to: use few shot examples](https://python.langchain.com/docs/how_to/few_shot_examples/)
 - [How to: use few shot examples in chat models](https://python.langchain.com/docs/how_to/few_shot_examples_chat/)
@@ -62,7 +70,8 @@ These are the core building blocks you can use when building applications.
 
 ### Example selectors[](https://python.langchain.com/docs/how_to/#example-selectors)
 
-[Example Selectors](https://python.langchain.com/docs/concepts/example_selectors/) are responsible for selecting the correct few shot examples to pass to the prompt.
+[Example Selectors](https://python.langchain.com/docs/concepts/example_selectors/) are responsible for selecting the
+correct few shot examples to pass to the prompt.
 
 - [How to: use example selectors](https://python.langchain.com/docs/how_to/example_selectors/)
 - [How to: select examples by length](https://python.langchain.com/docs/how_to/example_selectors_length_based/)
@@ -73,7 +82,8 @@ These are the core building blocks you can use when building applications.
 
 ### LLMs[](https://python.langchain.com/docs/how_to/#llms)
 
-What LangChain calls [LLMs](https://python.langchain.com/docs/concepts/text_llms/) are older forms of language models that take a string in and output a string.
+What LangChain calls [LLMs](https://python.langchain.com/docs/concepts/text_llms/) are older forms of language models
+that take a string in and output a string.
 
 - [How to: cache model responses](https://python.langchain.com/docs/how_to/llm_caching/)
 - [How to: create a custom LLM class](https://python.langchain.com/docs/how_to/custom_llm/)
@@ -83,7 +93,8 @@ What LangChain calls [LLMs](https://python.langchain.com/docs/concepts/text_llms
 
 ### Output parsers[](https://python.langchain.com/docs/how_to/#output-parsers)
 
-[Output Parsers](https://python.langchain.com/docs/concepts/output_parsers/) are responsible for taking the output of an LLM and parsing into more structured format.
+[Output Parsers](https://python.langchain.com/docs/concepts/output_parsers/) are responsible for taking the output of an
+LLM and parsing into more structured format.
 
 - [How to: parse text from message objects](https://python.langchain.com/docs/how_to/output_parser_string/)
 - [How to: use output parsers to parse an LLM response into structured format](https://python.langchain.com/docs/how_to/output_parser_structured/)
@@ -96,7 +107,8 @@ What LangChain calls [LLMs](https://python.langchain.com/docs/concepts/text_llms
 
 ### Document loaders[](https://python.langchain.com/docs/how_to/#document-loaders)
 
-[Document Loaders](https://python.langchain.com/docs/concepts/document_loaders/) are responsible for loading documents from a variety of sources.
+[Document Loaders](https://python.langchain.com/docs/concepts/document_loaders/) are responsible for loading documents
+from a variety of sources.
 
 - [How to: load PDF files](https://python.langchain.com/docs/how_to/document_loader_pdf/)
 - [How to: load web pages](https://python.langchain.com/docs/how_to/document_loader_web/)
@@ -110,7 +122,8 @@ What LangChain calls [LLMs](https://python.langchain.com/docs/concepts/text_llms
 
 ### Text splitters[](https://python.langchain.com/docs/how_to/#text-splitters)
 
-[Text Splitters](https://python.langchain.com/docs/concepts/text_splitters/) take a document and split into chunks that can be used for retrieval.
+[Text Splitters](https://python.langchain.com/docs/concepts/text_splitters/) take a document and split into chunks that
+can be used for retrieval.
 
 - [How to: recursively split text](https://python.langchain.com/docs/how_to/recursive_text_splitter/)
 - [How to: split HTML](https://python.langchain.com/docs/how_to/split_html/)
@@ -123,7 +136,10 @@ What LangChain calls [LLMs](https://python.langchain.com/docs/concepts/text_llms
 
 ### Embedding models[](https://python.langchain.com/docs/how_to/#embedding-models)
 
-[Embedding Models](https://python.langchain.com/docs/concepts/embedding_models/) take a piece of text and create a numerical representation of it. See [supported integrations](https://python.langchain.com/docs/integrations/text_embedding/) for details on getting started with embedding models from a specific provider.
+[Embedding Models](https://python.langchain.com/docs/concepts/embedding_models/) take a piece of text and create a
+numerical representation of it.
+See [supported integrations](https://python.langchain.com/docs/integrations/text_embedding/) for details on getting
+started with embedding models from a specific provider.
 
 - [How to: embed text data](https://python.langchain.com/docs/how_to/embed_text/)
 - [How to: cache embedding results](https://python.langchain.com/docs/how_to/caching_embeddings/)
@@ -131,13 +147,16 @@ What LangChain calls [LLMs](https://python.langchain.com/docs/concepts/text_llms
 
 ### Vector stores[](https://python.langchain.com/docs/how_to/#vector-stores)
 
-[Vector stores](https://python.langchain.com/docs/concepts/vectorstores/) are databases that can efficiently store and retrieve embeddings. See [supported integrations](https://python.langchain.com/docs/integrations/vectorstores/) for details on getting started with vector stores from a specific provider.
+[Vector stores](https://python.langchain.com/docs/concepts/vectorstores/) are databases that can efficiently store and
+retrieve embeddings. See [supported integrations](https://python.langchain.com/docs/integrations/vectorstores/) for
+details on getting started with vector stores from a specific provider.
 
 - [How to: use a vector store to retrieve data](https://python.langchain.com/docs/how_to/vectorstores/)
 
 ### Retrievers[](https://python.langchain.com/docs/how_to/#retrievers)
 
-[Retrievers](https://python.langchain.com/docs/concepts/retrievers/) are responsible for taking a query and returning relevant documents.
+[Retrievers](https://python.langchain.com/docs/concepts/retrievers/) are responsible for taking a query and returning
+relevant documents.
 
 - [How to: use a vector store to retrieve data](https://python.langchain.com/docs/how_to/vectorstore_retriever/)
 - [How to: generate multiple queries to retrieve data for](https://python.langchain.com/docs/how_to/MultiQueryRetriever/)
@@ -160,7 +179,9 @@ Indexing is the process of keeping your vectorstore in-sync with the underlying 
 
 ### Tools[](https://python.langchain.com/docs/how_to/#tools)
 
-LangChain [Tools](https://python.langchain.com/docs/concepts/tools/) contain a description of the tool (to pass to the language model) as well as the implementation of the function to call. Refer [here](https://python.langchain.com/docs/integrations/tools/) for a list of pre-built tools.
+LangChain [Tools](https://python.langchain.com/docs/concepts/tools/) contain a description of the tool (to pass to the
+language model) as well as the implementation of the function to call.
+Refer [here](https://python.langchain.com/docs/integrations/tools/) for a list of pre-built tools.
 
 - [How to: create tools](https://python.langchain.com/docs/how_to/custom_tools/)
 - [How to: use built-in tools and toolkits](https://python.langchain.com/docs/how_to/tools_builtin/)
@@ -187,14 +208,16 @@ LangChain [Tools](https://python.langchain.com/docs/concepts/tools/) contain a d
 
 note
 
-For in depth how-to guides for agents, please check out [LangGraph](https://langchain-ai.github.io/langgraph/) documentation.
+For in depth how-to guides for agents, please check out [LangGraph](https://langchain-ai.github.io/langgraph/)
+documentation.
 
 - [How to: use legacy LangChain Agents (AgentExecutor)](https://python.langchain.com/docs/how_to/agent_executor/)
 - [How to: migrate from legacy LangChain agents to LangGraph](https://python.langchain.com/docs/how_to/migrate_agent/)
 
 ### Callbacks[](https://python.langchain.com/docs/how_to/#callbacks)
 
-[Callbacks](https://python.langchain.com/docs/concepts/callbacks/) allow you to hook into the various stages of your LLM application's execution.
+[Callbacks](https://python.langchain.com/docs/concepts/callbacks/) allow you to hook into the various stages of your LLM
+application's execution.
 
 - [How to: pass in callbacks at runtime](https://python.langchain.com/docs/how_to/callbacks_runtime/)
 - [How to: attach callbacks to a module](https://python.langchain.com/docs/how_to/callbacks_attach/)
@@ -227,7 +250,8 @@ These guides cover use-case specific details.
 
 ### Q&A with RAG[](https://python.langchain.com/docs/how_to/#qa-with-rag)
 
-Retrieval Augmented Generation (RAG) is a way to connect LLMs to external sources of data. For a high-level tutorial on RAG, check out [this guide](https://python.langchain.com/docs/tutorials/rag/).
+Retrieval Augmented Generation (RAG) is a way to connect LLMs to external sources of data. For a high-level tutorial on
+RAG, check out [this guide](https://python.langchain.com/docs/tutorials/rag/).
 
 - [How to: add chat history](https://python.langchain.com/docs/how_to/qa_chat_history_how_to/)
 - [How to: stream](https://python.langchain.com/docs/how_to/qa_streaming/)
@@ -237,7 +261,8 @@ Retrieval Augmented Generation (RAG) is a way to connect LLMs to external source
 
 ### Extraction[](https://python.langchain.com/docs/how_to/#extraction)
 
-Extraction is when you use LLMs to extract structured information from unstructured text. For a high level tutorial on extraction, check out [this guide](https://python.langchain.com/docs/tutorials/extraction/).
+Extraction is when you use LLMs to extract structured information from unstructured text. For a high level tutorial on
+extraction, check out [this guide](https://python.langchain.com/docs/tutorials/extraction/).
 
 - [How to: use reference examples](https://python.langchain.com/docs/how_to/extraction_examples/)
 - [How to: handle long text](https://python.langchain.com/docs/how_to/extraction_long_text/)
@@ -245,7 +270,8 @@ Extraction is when you use LLMs to extract structured information from unstructu
 
 ### Chatbots[](https://python.langchain.com/docs/how_to/#chatbots)
 
-Chatbots involve using an LLM to have a conversation. For a high-level tutorial on building chatbots, check out [this guide](https://python.langchain.com/docs/tutorials/chatbot/).
+Chatbots involve using an LLM to have a conversation. For a high-level tutorial on building chatbots, check
+out [this guide](https://python.langchain.com/docs/tutorials/chatbot/).
 
 - [How to: manage memory](https://python.langchain.com/docs/how_to/chatbots_memory/)
 - [How to: do retrieval](https://python.langchain.com/docs/how_to/chatbots_retrieval/)
@@ -254,7 +280,8 @@ Chatbots involve using an LLM to have a conversation. For a high-level tutorial 
 
 ### Query analysis[](https://python.langchain.com/docs/how_to/#query-analysis)
 
-Query Analysis is the task of using an LLM to generate a query to send to a retriever. For a high-level tutorial on query analysis, check out [this guide](https://python.langchain.com/docs/tutorials/rag/#query-analysis).
+Query Analysis is the task of using an LLM to generate a query to send to a retriever. For a high-level tutorial on
+query analysis, check out [this guide](https://python.langchain.com/docs/tutorials/rag/#query-analysis).
 
 - [How to: add examples to the prompt](https://python.langchain.com/docs/how_to/query_few_shot/)
 - [How to: handle cases where no queries are generated](https://python.langchain.com/docs/how_to/query_no_queries/)
@@ -265,7 +292,8 @@ Query Analysis is the task of using an LLM to generate a query to send to a retr
 
 ### Q&A over SQL + CSV[](https://python.langchain.com/docs/how_to/#qa-over-sql--csv)
 
-You can use LLMs to do question answering over tabular data. For a high-level tutorial, check out [this guide](https://python.langchain.com/docs/tutorials/sql_qa/).
+You can use LLMs to do question answering over tabular data. For a high-level tutorial, check
+out [this guide](https://python.langchain.com/docs/tutorials/sql_qa/).
 
 - [How to: use prompting to improve results](https://python.langchain.com/docs/how_to/sql_prompting/)
 - [How to: do query validation](https://python.langchain.com/docs/how_to/sql_query_checking/)
@@ -274,14 +302,16 @@ You can use LLMs to do question answering over tabular data. For a high-level tu
 
 ### Q&A over graph databases[](https://python.langchain.com/docs/how_to/#qa-over-graph-databases)
 
-You can use an LLM to do question answering over graph databases. For a high-level tutorial, check out [this guide](https://python.langchain.com/docs/tutorials/graph/).
+You can use an LLM to do question answering over graph databases. For a high-level tutorial, check
+out [this guide](https://python.langchain.com/docs/tutorials/graph/).
 
 - [How to: add a semantic layer over the database](https://python.langchain.com/docs/how_to/graph_semantic/)
 - [How to: construct knowledge graphs](https://python.langchain.com/docs/how_to/graph_constructing/)
 
 ### Summarization[](https://python.langchain.com/docs/how_to/#summarization)
 
-LLMs can summarize and otherwise distill desired information from text, including large volumes of text. For a high-level tutorial, check out [this guide](https://python.langchain.com/docs/tutorials/summarization/).
+LLMs can summarize and otherwise distill desired information from text, including large volumes of text. For a
+high-level tutorial, check out [this guide](https://python.langchain.com/docs/tutorials/summarization/).
 
 - [How to: summarize text in a single LLM call](https://python.langchain.com/docs/how_to/summarize_stuff/)
 - [How to: summarize text through parallelization](https://python.langchain.com/docs/how_to/summarize_map_reduce/)
@@ -291,13 +321,20 @@ LLMs can summarize and otherwise distill desired information from text, includin
 
 Should I use LCEL?
 
-LCEL is an orchestration solution. See our [concepts page](https://python.langchain.com/docs/concepts/lcel/#should-i-use-lcel) for recommendations on when to use LCEL.
+LCEL is an orchestration solution. See
+our [concepts page](https://python.langchain.com/docs/concepts/lcel/#should-i-use-lcel) for recommendations on when to
+use LCEL.
 
-[LangChain Expression Language](https://python.langchain.com/docs/concepts/lcel/) is a way to create arbitrary custom chains. It is built on the [Runnable](https://python.langchain.com/api_reference/core/runnables/langchain_core.runnables.base.Runnable.html) protocol.
+[LangChain Expression Language](https://python.langchain.com/docs/concepts/lcel/) is a way to create arbitrary custom
+chains. It is built on
+the [Runnable](https://python.langchain.com/api_reference/core/runnables/langchain_core.runnables.base.Runnable.html)
+protocol.
 
-[**LCEL cheatsheet**](https://python.langchain.com/docs/how_to/lcel_cheatsheet/): For a quick overview of how to use the main LCEL primitives.
+[**LCEL cheatsheet**](https://python.langchain.com/docs/how_to/lcel_cheatsheet/): For a quick overview of how to use the
+main LCEL primitives.
 
-[**Migration guide**](https://python.langchain.com/docs/versions/migrating_chains/): For migrating legacy chain abstractions to LCEL.
+[**Migration guide**](https://python.langchain.com/docs/versions/migrating_chains/): For migrating legacy chain
+abstractions to LCEL.
 
 - [How to: chain runnables](https://python.langchain.com/docs/how_to/sequence/)
 - [How to: stream runnables](https://python.langchain.com/docs/how_to/streaming/)
@@ -315,31 +352,36 @@ LCEL is an orchestration solution. See our [concepts page](https://python.langch
 
 ## [LangGraph](https://langchain-ai.github.io/langgraph)[](https://python.langchain.com/docs/how_to/#langgraph)
 
-LangGraph is an extension of LangChain aimed at building robust and stateful multi-actor applications with LLMs by modeling steps as edges and nodes in a graph.
+LangGraph is an extension of LangChain aimed at building robust and stateful multi-actor applications with LLMs by
+modeling steps as edges and nodes in a graph.
 
-LangGraph documentation is currently hosted on a separate site. You can peruse [LangGraph how-to guides here](https://langchain-ai.github.io/langgraph/how-tos/).
+LangGraph documentation is currently hosted on a separate site. You can
+peruse [LangGraph how-to guides here](https://langchain-ai.github.io/langgraph/how-tos/).
 
 ## [LangSmith](https://docs.smith.langchain.com/)[](https://python.langchain.com/docs/how_to/#langsmith)
 
-LangSmith allows you to closely trace, monitor and evaluate your LLM application. It seamlessly integrates with LangChain and LangGraph, and you can use it to inspect and debug individual steps of your chains and agents as you build.
+LangSmith allows you to closely trace, monitor and evaluate your LLM application. It seamlessly integrates with
+LangChain and LangGraph, and you can use it to inspect and debug individual steps of your chains and agents as you
+build.
 
-LangSmith documentation is hosted on a separate site. You can peruse [LangSmith how-to guides here](https://docs.smith.langchain.com/), but we'll highlight a few sections that are particularly relevant to LangChain below:
+LangSmith documentation is hosted on a separate site. You can
+peruse [LangSmith how-to guides here](https://docs.smith.langchain.com/), but we'll highlight a few sections that are
+particularly relevant to LangChain below:
 
 ### Evaluation[](https://python.langchain.com/docs/how_to/#evaluation)
 
+Evaluating performance is a vital part of building LLM-powered applications. LangSmith helps with every step of the
+process from creating a dataset to defining metrics to running evaluators.
 
-
-Evaluating performance is a vital part of building LLM-powered applications. LangSmith helps with every step of the process from creating a dataset to defining metrics to running evaluators.
-
-To learn more, check out the [LangSmith evaluation how-to guides](https://docs.smith.langchain.com/how_to_guides#evaluation).
+To learn more, check out
+the [LangSmith evaluation how-to guides](https://docs.smith.langchain.com/how_to_guides#evaluation).
 
 ### Tracing[](https://python.langchain.com/docs/how_to/#tracing)
-
-
 
 Tracing gives you observability inside your chains and agents, and is vital in diagnosing issues.
 
 - [How to: trace with LangChain](https://docs.smith.langchain.com/how_to_guides/tracing/trace_with_langchain)
 - [How to: add metadata and tags to traces](https://docs.smith.langchain.com/how_to_guides/tracing/trace_with_langchain#add-metadata-and-tags-to-traces)
 
-You can see general tracing-related how-tos [in this section of the LangSmith docs](https://docs.smith.langchain.com/how_to_guides/tracing).
+You can see general tracing-related
+how-tos [in this section of the LangSmith docs](https://docs.smith.langchain.com/how_to_guides/tracing).

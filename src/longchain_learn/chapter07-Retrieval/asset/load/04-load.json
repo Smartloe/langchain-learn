@@ -22,5 +22,8 @@
     }
   ],
   "conversation_id": "conv_12345",
-  "participants": ["Alice", "Bob"]
+  "participants": [
+    "Alice",
+    "Bob"
+  ]
 }
