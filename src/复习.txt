@@ -1,0 +1,28 @@
+
+1、大语言模型的调用：ChatOpenAI() 、OpenAI()
+
+2、提示词模板 ---> 提示词工程
+PromptTemplate 、ChatPromptTemplate 、FewShotPromptTemplate等
+
+3、输出解析器的使用：JsonOutputParser 、StrOutputParser等
+
+4、Chain的使用：LLMChain、SequentialChain; | 、create_sql_query_chain 等
+
+5、使用记忆，给大模型提供上下文：ChatMessageHistory 、ConversationBufferMemory、
+ConversationBufferWindowMemory、ConversationSummaryMemory、ConversationSummaryBufferMemory
+
+6、工具的创建、工具的使用 （为Agent的使用做准备）
+
+7、Agent的使用：Agent ---> AgentExecutor ---> LangGraph
+
+传统的方式（工具的调用、memory的使用）：(不需要显式的声明提示词模板）
+    agent : AgentType.XXX
+    agent_executor = initialize_agent(llm=llm,agent=agent,tools=tools,memory=memory)
+
+通用的方式（工具的调用、memory的使用）：
+    agent : create_xxx_agent(llm=llm,tools=tools,prompt=prompt)
+    agent_executor = AgentExecutor(agent=agent,tools=tools,memory=memory)
+
+8、RAG的使用（数据的向量化存储）
+流程：XxxLoader ---> list[Document] ---> XxxSplitter ---> OpenAIEmbeddings() -->
+     Chroma / FAISS ---> Retriever
